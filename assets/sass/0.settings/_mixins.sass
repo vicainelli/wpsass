@@ -106,14 +106,8 @@
 // ===============================================
 
 // Linear gradient
-@mixin linear-gradient ($star, $finish)
-	background-repeat: repeat-x
-	background-image: -moz-linear-gradient(top, $star, $finish)
-	background-image: -ms-linear-gradient(top, $star, $finish)
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $star), color-stop(100%, $finish))
-	background-image: -webkit-linear-gradient(top, $star, $finish)
-	background-image: -o-linear-gradient(top, $star, $finish)
-	background-image: linear-gradient($star, $finish)
+@mixin linear-gradient ($direction, $start, $finish)
+	background: linear-gradient(to $direction, $start, $finish)
 
 // -------------  End of Gradients  --------------
 
