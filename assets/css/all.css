@@ -171,23 +171,8 @@ table {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.wrap {
-  width: 960px;
-  margin: 0 auto;
-  background: #333333;
-}
-
-.row {
-  *zoom: 1;
-}
-.row:before, .row:after {
-  content: "";
-  display: table;
-}
-.row:after {
-  clear: both;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .span1, .span2, .span3, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
